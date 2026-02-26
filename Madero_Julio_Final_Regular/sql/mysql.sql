@@ -44,5 +44,11 @@ CREATE TABLE historial_batalla (
 -- Insertar personajes de prueba
 INSERT INTO personajes (nombre, apodo, tipo, vida, fuerza, defensa, bendicion, victorias)
 VALUES 
-    ('Arthas', 'El Luminoso', 'HEROE',   130, 22, 10, 65, 0),
-    ('Diablo', 'El Oscuro',   'VILLANO', 150, 20,  8, 45, 0);
+    ('Arthas',   'El Luminoso',    'HEROE',   130, 22, 10, 65, 0),
+    ('Diablo',   'El Oscuro',      'VILLANO', 150, 20,  8, 45, 0),
+    ('Galadriel','La Eterna',      'HEROE',   120, 18, 12, 90, 0),
+    ('Sauron',   'El Señor Oscuro','VILLANO', 160, 25,  9, 40, 0),
+    ('Leonidas', 'El Espartano',   'HEROE',   145, 24, 13, 55, 0),
+    ('Morgoth',  'El Primero',     'VILLANO', 155, 23,  8, 35, 0),
+    ('Aragorn',  'El Heredero',    'HEROE',   135, 21, 11, 70, 0),
+    ('Maleficent','La Maldicion',  'VILLANO', 140, 19, 10, 80, 0);
