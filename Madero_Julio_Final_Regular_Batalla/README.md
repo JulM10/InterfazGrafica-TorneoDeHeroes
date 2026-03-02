@@ -4,6 +4,7 @@ Proyecto Java con interfaz gráfica Swing, arquitectura MVC y base de datos MySQ
 **Materia:** Interfaz Gráfica  
 **Docente:** Giuliana Dealbera Etchechoury  
 **Alumno:** Julio Madero — DNI 40.974.293
+**Link Github** https://github.com/JulM10/InterfazGrafica-TorneoDeHeroes
 
 ---
 
