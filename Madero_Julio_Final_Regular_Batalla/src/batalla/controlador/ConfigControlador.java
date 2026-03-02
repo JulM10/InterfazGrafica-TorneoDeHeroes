@@ -68,21 +68,6 @@ public class ConfigControlador {
             vista.mostrarError("Nombre y apodo deben tener al menos 2 caracteres.");
             return;
         }
-
-        long heroesActuales = personajes.stream()
-                .filter(p -> p.getTipo() == TipoPersonaje.HEROE).count();
-        long villanosActuales = personajes.stream()
-                .filter(p -> p.getTipo() == TipoPersonaje.VILLANO).count();
-
-        if (tipo == TipoPersonaje.HEROE && heroesActuales >= 1) {
-            vista.mostrarError("Ya hay un Heroe registrado. Solo se permite uno.");
-            return;
-        }
-        if (tipo == TipoPersonaje.VILLANO && villanosActuales >= 1) {
-            vista.mostrarError("Ya hay un Villano registrado. Solo se permite uno.");
-            return;
-        }
-
         boolean apodoDuplicado = personajes.stream()
                 .anyMatch(p -> p.getApodo().equalsIgnoreCase(apodo));
         if (apodoDuplicado) {
