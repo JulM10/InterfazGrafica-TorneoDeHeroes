@@ -166,7 +166,7 @@ Esto permitió identificar rápidamente errores de compilación tardía, problem
 
 **Ayuda con Script SQL**
 
-Se ayudo a la normalizacion de la base de datos y la carga de valores fictisios en modo de prueba.
+Se ayudo a la normalizacion de la base de datos y la carga de valores ficticios en modo de prueba.
 
 **Acompañamiento de código con dudas puntuales**
 
